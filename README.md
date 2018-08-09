@@ -1,0 +1,1 @@
+Testing the fundmentals of data binding an input field to a display div
