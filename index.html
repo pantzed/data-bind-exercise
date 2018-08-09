@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Data Binding Test</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+<body>
+  <h1>Data binding test</h1>
+
+  <form id="nameForm">
+    <label for="firstName">First Name:
+      <input name="firstName" type="text">
+    </label>
+    <label for="lastName">First Name:
+      <input name="lastName" type="text">
+    </label>
+  </form> 
+
+  <div class="bolded">User: <span id="firstName"></span> <span id="lastName"></span></div>
+
+</body>
+<script src="binding.js"></script>
+</html>
